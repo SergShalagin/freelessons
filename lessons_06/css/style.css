@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,regular,700 display=swap");
+
+@import url("reset.css");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+[class*="-container"] {
+  max-width: 1302px;
+  margin: 0 auto;
+  padding-right: 15px;
+}
+
+.wrapper {
+  overflow: clip;
+  min-height: 100%;
+}
+
+.header,
+.footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.footer-title {
+  font-size: 48px;
+  line-height: 1.35;
+  letter-spacing: 0.48px;
+  margin-bottom: 20px;
+}
+
+.footer-label {
+  font-size: 22px;
+  line-height: 1.1;
+  margin-bottom: 15px;
+}
+
+.footer-title:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.menu-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.menu-link {
+  color: #9a9ea6;
+  font-size: 18px;
+  line-height: 1.2;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+/*______________________________*/
+
+.ecobazar {
+  padding-top: 55px;
+  padding-bottom: 80px;
+}
+
+.ecobazar-body {
+  max-width: 648px;
+  margin: 0 auto;
+  color: #808080;
+  line-height: 1.5;
+}
+
+.ecobazar-text:not(:last-child),
+.ecobazar-list:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.ecobazar-text p:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.ecobazar-item:not(:last-child) {
+  margin-bottom: 14px;
+}
+.ecobazar-list:not(:last-child) {
+  margin-bottom: 20px;
+}
+.ecobazar-item {
+  padding-left: 28px;
+  background: url("../img/ecobazar/check.svg") 0 0 / 20px no-repeat;
+  min-height: 20px;
+}
+
+/*_____________________________________________*/
+
+.adout {
+  padding-top: 95px;
+  padding-bottom: 95px;
+  background: #302c42 url("../img/hydra/decor_wave.png") center no-repeat;
+}
+
+.about-image {
+  border-radius: 40% 18% 43% 20% / 46% 20% 46% 20%;
+  overflow: clip;
+  max-width: 524px;
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.2);
+}
+.about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-image:not(:last-child) {
+  margin-right: 112px;
+}
+
+.about-body {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.about-body,
+.about-image {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.about-header {
+  line-height: 1.1;
+  font-size: 36px;
+}
+
+.about-label {
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 300;
+}
+
+.about-header,
+.about-link {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.about-text {
+  max-width: 630px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.about-link {
+  color: #343045;
+  font-size: 12px;
+  border-radius: 40px;
+  padding: 17px 43px;
+  line-height: 1;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+}
+
+.about-title:not(:last-child),
+.about-label:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.about-header:not(:last-child) {
+  margin-bottom: 42px;
+}
+
+.about-text:not(:last-child) {
+  margin-bottom: 28px;
+}
+
+.about-text p:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+/*__________________________________________________________________*/
+
+.info {
+  padding-top: 95px;
+  padding-bottom: 95px;
+  background-color: #302c42;
+}
+
+.info-items {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 90px;
+  background: radial-gradient(circle, rgba(58, 52, 86, 0.95) 0%, #211e2e 100%);
+  padding: 33px 66px;
+  box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+}
+
+.info-item {
+  display: inline-block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  vertical-align: middle;
+  line-height: 1.1;
+}
+
+.info-location {
+  padding-left: 55px;
+  background: url("../img/hydra/location_icon.svg") 0 50% / 40px no-repeat;
+  min-height: 40px;
+}
+
+.info-phone {
+  padding-left: 85px;
+  background: url("../img/hydra/phone_icon.svg") 0 50% / 55px no-repeat;
+  min-height: 55px;
+}
+
+.info-mail {
+  padding-left: 85px;
+  background: url("../img/hydra/mail_icon.svg") 0 50% / 62px no-repeat;
+  min-height: 62px;
+}
+
+.info-item:not(:last-child) {
+  padding-right: 45px;
+  margin-right: 45px;
+  border-radius: 1px solid rgba(192, 183, 232, 0.33);
+}
+
+.info-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.info-title,
+.info-link:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+/*_________________________________________________________*/
