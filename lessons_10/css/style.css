@@ -1,0 +1,283 @@
+/* Підключення фрифтів */
+
+/* Google Fonts (Plugin) */
+/* @import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap"); */
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+.wrapper {
+  min-height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+/*---Business part1-------------*/
+
+.audit_container {
+  background: url(../img/background/background.png) center / 100% 100% no-repeat;
+  max-width: 1595px;
+  padding-left: 183px;
+  padding-right: 183px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 55px;
+}
+.audit_container::before {
+  content: "";
+  width: 213px;
+  height: 472px;
+  background: url(..//img/decoration/group-ellipse.png);
+  position: absolute;
+  top: 74%;
+  left: 5.5%;
+  z-index: 0;
+}
+.audit_container__image {
+  display: inline-block;
+  margin-right: 70px;
+}
+.audit_container__image::before {
+  content: "";
+  width: 65px;
+  height: 65px;
+  border: solid 5px;
+  border-radius: 50%;
+  border-color: #ffba49;
+  position: absolute;
+  z-index: 1;
+  top: 127px;
+  left: 55px;
+}
+.audit_container__image::after {
+  content: "";
+  width: 401px;
+  height: 401px;
+  border: solid 5px;
+  border-radius: 50%;
+  border-color: #ffba49;
+  position: absolute;
+  z-index: 0;
+  top: 172px;
+  left: 75px;
+}
+.img-girl {
+  max-width: 430px;
+  max-height: 548px;
+  margin-top: -40px;
+  border-radius: 20px;
+  box-shadow: -25px 20px 44px 0px rgba(84, 48, 209, 0.4);
+  position: relative;
+  z-index: 1;
+}
+.audit_container__description {
+  max-width: 602px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.discription-title {
+  color: #fff;
+  font-family: "CircularStd", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  min-width: 602px;
+  margin-bottom: 13px;
+  line-height: 1.28;
+}
+
+.description-text,
+.risk-text {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.67;
+  margin-bottom: 39px;
+  max-width: 480px;
+}
+.button {
+  padding: 22px 26px;
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 60px;
+  background: #f35b09;
+}
+.button:hover {
+  background: #fff;
+  color: #f35b09;
+}
+
+/*----------Busines part2----------------*/
+
+.risk {
+}
+.risk_container {
+  background: url(../img/background/background.png) center / 100% 100% no-repeat;
+  max-width: 1595px;
+  padding-left: 183px;
+  margin: 0 auto;
+  font-size: 0;
+  position: relative;
+  text-align: right;
+  margin-bottom: 0;
+}
+.risk_container-image {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.risk_container-image::after {
+  content: "";
+  width: 262px;
+  height: 262px;
+  border: solid 5px;
+  border-radius: 50%;
+  border-color: #ffba49;
+  position: absolute;
+  z-index: 0;
+  top: -50px;
+  right: 285px;
+}
+.risk_container-image::before {
+  content: "";
+  width: 65px;
+  height: 65px;
+  border: solid 5px;
+  border-radius: 50%;
+  border-color: #ffba49;
+  position: absolute;
+  z-index: 2;
+  right: 455px;
+}
+
+.img-boys {
+  max-width: 430px;
+  max-height: 548px;
+  border-radius: 20px;
+  background: lightgray 50% / rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 1;
+}
+.risk_container__description {
+  display: inline-block;
+  margin-right: 43px;
+  padding-top: 30px;
+  text-align: left;
+  vertical-align: top;
+}
+.risk-title {
+  max-width: 506px;
+  color: #fff;
+  font-family: "CircularStd", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 13px;
+  line-height: 1.28;
+}
+.risk_container::after {
+  content: "";
+  height: 213px;
+  width: 472px;
+  background: url(../img/decoration/group-ellipse2.png);
+  position: absolute;
+  top: 34.5%;
+  right: 0px;
+  z-index: 0;
+}
+.part1,
+.part2 {
+  color: bisque;
+  text-align: center;
+  background-color: blue;
+  border-radius: 40px;
+  line-height: 3;
+  font-size: 30px;
+  margin: 50px 50px 150px;
+}
+
+/*------Ecobazar---------*/
+
+.products {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.products_container {
+  background-color: #ffba49;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.product-card {
+  max-width: 264px;
+  margin: 0 auto;
+  border: 1px solid #2c742f;
+  background: #fff;
+  position: relative;
+  font-size: 0;
+}
+.product-card:hover {
+  box-shadow: 0px 0px 12px 0px rgba(32, 181, 38, 0.32);
+}
+.product-card__image-container {
+  padding: 5px 5px 5.5px 5px;
+}
+
+.product-card__icons-container {
+  max-width: 40px;
+  max-height: 86px;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+
+.icon-heart-img,
+.icon-eye-img {
+  opacity: 0;
+  visibility: hidden;
+}
+.icon-heart-img {
+  margin-bottom: 6px;
+}
+
+.product-card:hover .product-card__icons-container * {
+  opacity: 1;
+  visibility: visible;
+}
+.product-card__description {
+  padding: 12px;
+  font-size: 0;
+}
+
+.product-price__title {
+  color: #2c742f;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.product-card__text-price {
+  color: #1a1a1a;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 6px;
+}
+
+.product-card__button-buy {
+  background-color: #00b307;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px;
+  position: absolute;
+  right: 16px;
+  bottom: 24px;
+}
+.product-card__button-buy:hover {
+  background-color: darkgreen;
+}
